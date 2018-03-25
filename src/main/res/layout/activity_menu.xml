@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    tools:context="com.androidproject.bhavna.railwaybookingapp.Menu">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Credentials!"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:paddingLeft="45dp"
+        android:paddingTop="40dp" />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/username"
+        android:layout_marginTop="40dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:textColor="@android:color/white"
+    />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="#FF3456"
+        android:paddingTop="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="#FF3456"
+        android:text="SignUp"
+        android:onClick="register"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>
