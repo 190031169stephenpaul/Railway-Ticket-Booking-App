@@ -26,7 +26,9 @@
             android:label="@string/title_activity_2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Registration" />
-        <activity android:name=".TicketBookAndShow"></activity>
+        <activity android:name=".TicketBookAndShow" />
+        <activity android:name=".Pass" />
+        <activity android:name=".BusPass"></activity>
     </application>
 
 </manifest>

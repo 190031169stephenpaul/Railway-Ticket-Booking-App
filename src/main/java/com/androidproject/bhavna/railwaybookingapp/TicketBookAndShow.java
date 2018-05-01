@@ -122,4 +122,17 @@ public class TicketBookAndShow extends AppCompatActivity {
 
         ad.show();
     }
+
+    public void bookBusPass(View v){
+        startActivity(new Intent(TicketBookAndShow.this,BusPass.class));
+    }
+
+    public void bookPass(View v){
+
+        startActivity(new Intent(TicketBookAndShow.this,Pass.class));
+    }
+    public void welcome(View v){
+        Toast.makeText(getApplicationContext(),"You clicked",Toast.LENGTH_SHORT).show();
+    }
+
 }

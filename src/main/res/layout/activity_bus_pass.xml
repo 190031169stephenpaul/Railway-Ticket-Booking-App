@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage2"
+    tools:context="com.androidproject.bhavna.railwaybookingapp.Pass">
+
+
+    <TextView
+        android:id="@+id/BusPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="15dp"
+        android:text="Bus Pass"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        app:layout_constraintBottom_toTopOf="@+id/bname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/bname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_orange_light"
+        app:layout_constraintBottom_toTopOf="@+id/bschool"
+        app:layout_constraintEnd_toEndOf="@+id/baddress"
+        app:layout_constraintStart_toStartOf="@+id/baddress"
+        app:layout_constraintTop_toBottomOf="@+id/BusPass" />
+
+    <EditText
+        android:id="@+id/bschool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="Enter School/College Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/holo_orange_dark"
+        app:layout_constraintBottom_toTopOf="@+id/bsid"
+        app:layout_constraintStart_toStartOf="@+id/bname"
+        app:layout_constraintTop_toBottomOf="@+id/bname" />
+
+    <EditText
+        android:id="@+id/bsid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:hint="School/College Id"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/holo_orange_dark"
+        app:layout_constraintBottom_toTopOf="@+id/baddress"
+        app:layout_constraintStart_toStartOf="@+id/bschool"
+        app:layout_constraintTop_toBottomOf="@+id/bschool" />
+
+    <EditText
+        android:id="@+id/baddress"
+        style="@android:style/Widget.Holo.Light.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColorHint="@android:color/holo_orange_light"
+        app:layout_constraintBottom_toTopOf="@+id/bsrc"
+        app:layout_constraintStart_toStartOf="@+id/bsrc"
+        app:layout_constraintTop_toBottomOf="@+id/bsid" />
+
+    <EditText
+        android:id="@+id/bsrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:hint="Source"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/holo_orange_light"
+        app:layout_constraintBottom_toTopOf="@+id/bdest"
+        app:layout_constraintEnd_toEndOf="@+id/bdest"
+        app:layout_constraintTop_toBottomOf="@+id/baddress" />
+
+    <EditText
+        android:id="@+id/bdest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Destination"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColorHint="@android:color/holo_orange_light"
+        app:layout_constraintBottom_toTopOf="@+id/bpass"
+        app:layout_constraintEnd_toEndOf="@+id/bpass"
+        app:layout_constraintTop_toBottomOf="@+id/bsrc" />
+
+    <Button
+        android:id="@+id/spass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="11dp"
+        android:layout_marginStart="1dp"
+        android:text="Show Pass"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bpass"
+        app:layout_constraintEnd_toStartOf="@+id/bpass"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="show"
+        />
+
+    <Button
+        android:id="@+id/bpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Book Pass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spass"
+        app:layout_constraintTop_toBottomOf="@+id/bdest"
+        android:onClick="buspass"
+        />
+</android.support.constraint.ConstraintLayout>
