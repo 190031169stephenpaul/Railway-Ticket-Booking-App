@@ -21,11 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu" />
         <activity
-            android:name=".Login"
-            android:label="@string/title_activity_login" />
-        <activity android:name=".Register"></activity>
+            android:name=".Activity2"
+            android:label="@string/title_activity_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Registration" />
+        <activity android:name=".TicketBookAndShow"></activity>
     </application>
 
 </manifest>

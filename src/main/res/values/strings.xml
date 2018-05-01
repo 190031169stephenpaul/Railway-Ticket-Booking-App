@@ -14,4 +14,74 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="title_activity_2">Activity2</string>
+
+
+    <string-array name="places">
+        <item> Thane </item>
+        <item>Airoli</item>
+        <item>Ambernath</item>
+        <item> Ambivili</item>
+        <item>Andheri</item>
+        <item>Asangaon</item>
+        <item>Badlapur</item>
+        <item>Bandra</item>
+        <item>Bhayander</item>
+        <item>Borivali</item>
+        <item>Byculla</item>
+        <item>CSMT</item>
+        <item>Charni Road</item>
+        <item>Chembur</item>
+        <item>Chinchpokli</item>
+        <item>Churchgate</item>
+        <item>Dadar</item>
+        <item>Dahisar</item>
+        <item>Dombivili</item>
+        <item>Ghansoli</item>
+        <item>Ghatkopar</item>
+        <item>Goregaon</item>
+        <item>Grant Road</item>
+        <item>Kalva</item>
+        <item>Juinagar</item>
+        <item>Kopar</item>
+        <item>Khopoli</item>
+        <item>Kharghar</item>
+        <item>Kandavali</item>
+        <item>Kelva Road</item>
+        <item>Kasara</item>
+        <item>Kanjur Marg</item>
+        <item>Kandivali</item>
+        <item>Kings Circle</item>
+        <item>Kurla</item>
+        <item>Mahim Jn</item>
+        <item>Mulund</item>
+        <item>Mira Road</item>
+        <item>Matheran</item>
+        <item>Malad</item>
+        <item>Masjid</item>
+        <item>Marine Lines</item>
+        <item>Matunga</item>
+        <item>Mahalaxmi</item>
+        <item>Nahur</item>
+        <item>Neral</item>
+        <item>Nerul</item>
+        <item>Palghar</item>
+        <item>Panvel</item>
+        <item>Rabale</item>
+        <item>Rammandir</item>
+        <item>Sanpada</item>
+        <item>Sion</item>
+        <item>Titwala</item>
+        <item>Thakurli</item>
+        <item>Tilaknagar</item>
+        <item>Turbhe</item>
+        <item>Ulhas Nagar</item>
+        <item>Vadala Road</item>
+        <item>Vashi</item>
+        <item>Kanhe</item>
+        <item> Kamshet</item>
+
+    </string-array>
 </resources>

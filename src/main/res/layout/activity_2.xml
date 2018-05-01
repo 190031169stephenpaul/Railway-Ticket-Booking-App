@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/login"
-    tools:context="com.androidproject.bhavna.railwaybookingapp.Menu">
+    tools:context="com.androidproject.bhavna.railwaybookingapp.Activity2">
 
     <TextView
         android:id="@+id/label"
@@ -23,10 +23,10 @@
         android:layout_height="wrap_content"
         android:labelFor="@id/username"
         android:layout_marginTop="40dp"
-    android:ems="10"
-    android:inputType="textPersonName"
-    android:textColor="@android:color/white"
-    />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        />
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
@@ -44,14 +44,16 @@
         android:paddingTop="30dp"
         android:layout_marginTop="20dp"
         android:textColor="@android:color/white"
+        android:onClick="loginMe"
         />
     <Button
+        android:id="@+id/register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
         android:background="#FF3456"
         android:text="SignUp"
-        android:onClick="register"
         android:layout_marginTop="20dp"
+        android:onClick="registerMe"
         />
 </LinearLayout>
